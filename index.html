@@ -1,0 +1,319 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>NEOCoffee</title>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+
+<script src="js/jquery.min.js"></script>
+
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); }>
+</script>
+<link href='http://fonts.googleapis.com/css?family=Exo:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic' rel='stylesheet' type='text/css'>
+ <!-- Смягчение скроллинга на странице -->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+	<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+	</script>
+<!-- _______ -->
+<!-- слайдер -->
+<link href="style.css" rel="stylesheet" type="text/css" media="all"/>
+ <link rel="stylesheet" href="chief-slider.css">
+  <script src="chief-slider.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      new ChiefSlider('.slider', {
+    	loop: true,
+  		autoplay: true,
+  		interval: 5000,
+  		swipe: true,
+  		refresh: false
+      });
+    });
+  </script>
+</head>
+<body>
+<!--banner start here-->
+<div class="banner">
+  <div class="banner-bg">
+	<div class="container">
+		<div class="header-main">
+			<div class="logo">
+				<a href="index.html"><span class="ft-logo">NEO</span><span class="sd-logo">coffee</span></a>
+			</div>
+			<span class="menu"> <img src="images/icon.png" alt=""/></span>
+				<div class="clear"> </div>
+			<div class="navg">
+				<ul class="res"> 
+					<li><a class="active" href="index.html">Главная</a></li>
+					<li><a href="about.html">О нас</a></li>
+					<li><a href="blog.html">Блог</a></li>
+					<li><a href="contact.html">Контакты</a></li>
+				</ul>
+				<script>
+                                  $( "span.menu").click(function() {
+                                                                    $(  "ul.res" ).slideToggle("slow", function() {
+                                                                     // Animation complete.
+                                                                     });
+                                                                     });
+		       </script>
+			</div>
+		  <div class="clearfix"> </div>
+		</div>
+	</div>
+	</div>
+  <div class="container">
+
+    <div class="slider">
+      <div class="slider__container">
+        <div class="slider__wrapper">
+          <div class="slider__items">
+            <div class="slider__item">
+              <table>
+              	<colgroup>
+              		<col>
+              		<col class="slider_content">
+              	</colgroup>
+              	<tr>
+              		<td rowspan="2"><img class="slider_image" src="images/1.jpg"></td>
+              		<td class="slider-text">
+              			<h3>Новый Карамельный латте</h3>
+              			<p>Насладитесь этим летом освежающим карамельным латте</p>
+              		</td>
+              	</tr>
+              	<tr>
+              		<td class="slider_button"><button class="button_more">Подробнее</button></td>
+              	</tr>
+              </table>
+            </div>
+            <div class="slider__item">
+              <table>
+              	<colgroup>
+              		<col>
+              		<col class="slider_content">
+              	</colgroup>
+              	<tr>
+              		<td rowspan="2"><img class="slider_image" src="images/5.jpg"></td>
+              		<td class="slider-text">
+              			<h3>Каппучино "Клиновый сироп и мята"</h3>
+              			<p>Самое время попробовать новый вкус</p>
+              		</td>
+              	</tr>
+              	<tr>
+              		<td class="slider_button"><button class="button_more">Подробнее</button></td>
+              	</tr>
+              </table>
+            </div>
+            <div class="slider__item">
+              <table>
+              	<colgroup>
+              		<col>
+              		<col class="slider_content">
+              	</colgroup>
+              	<tr>
+              		<td rowspan="2"><img class="slider_image" src="images/6.jpg"></td>
+              		<td class="slider-text">
+              			<h3>Кофе с шоколадным ликёром🔞</h3>
+              			<p>Для проведения тёплого вечера в хорошей компании</p>
+              		</td>
+              	</tr>
+              	<tr>
+              		<td class="slider_button"><button class="button_more">Подробнее</button></td>
+              	</tr>
+              </table>
+            </div>
+            <div class="slider__item">
+              <table>
+              	<colgroup>
+              		<col>
+              		<col class="slider_content">
+              	</colgroup>
+              	<tr>
+              		<td rowspan="2"><img class="slider_image" src="images/8.jpg"></td>
+              		<td class="slider-text">
+              			<h3>Кофейный лимонад</h3>
+              			<p>Самое то, когда надо освежиться и взбодриться</p>
+              		</td>
+              	</tr>
+              	<tr>
+              		<td class="slider_button"><button class="button_more">Подробнее</button></td>
+              	</tr>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="#" class="slider__control" data-slide="prev"></a>
+      <a href="#" class="slider__control" data-slide="next"></a>
+    </div>
+  </div><!--banner end here-->
+<!--cafe start here-->
+<div class="coff">
+	<div class="container">
+		<div class="coff-main">
+				<div class="col-md-4 coff-top-grid1">
+				 <div class="coff-top-gridmater">
+					<p>01</p>
+					<h3>Латте</h3>
+				  </div>
+				</div>
+				<div class="col-md-4 coff-top-grid2">
+				   <div class="coff-top-gridmater">
+					<p>02</p>
+					<h3>Каппучино</h3>
+				  </div>
+				</div>
+				<div class="col-md-4 coff-top-grid3 black">
+			       <div class="coff-top-gridmater">
+					<p>03</p>
+					<h3>Молотый кофе</h3>
+				  </div>
+				</div>
+			   <div class="clearfix"> </div>
+	   </div>
+   </div>
+</div>
+
+<div class="cafe-info">
+	<div class="container">
+		<div class="cafeinfo-main">
+				 <div class="col-md-8 coff-middle-right">
+				    <div class="coff-middle-top">
+				    	 <h3>Наши Специальные предложения</h3>
+				    </div>
+				  <div class="coff-middle-grids-main">
+				    <div class="coff-middle-grid">
+				        <div  class="coff-icons"> <img src="images/cafe-machion.png" alt=""/> </div>
+				        <div class="middle-right-text">
+					    	<h4>Кофе, приготовленный на ваших глазах</h4>
+					    	<p>Aliquam erat volutpat. Suspendisse congue massa quisenim sollicitudin, in pharetra lectus tempor. Duis sit amet efficitur mi. </p>
+				        </div>
+				       <div class="clearfix"> </div>
+				    </div>
+				    <div class="coff-middle-grid">
+				    	<div  class="coff-icons"> <img src="images/dram.png" alt=""/> </div>
+				    	 <div class="middle-right-text">
+					    	<h4>Экологически безопасные стаканы</h4>
+					    	<p>Aliquam erat volutpat. Suspendisse congue massa quisenim sollicitudin, in pharetra lectus tempor.</p>
+				         </div>
+				       <div class="clearfix"> </div>
+				    </div>
+				    <div class="coff-middle-grid">
+				    	<div  class="coff-icons"> <img src="images/coff-key.png" alt=""/> </div>
+				    	<div class="middle-right-text">
+					    	<h4>Возможность заказать доставку</h4>
+					    	<p>Aliquam erat volutpat. Suspendisse congue massa quis</p>
+				    	</div>
+				      <div class="clearfix"> </div>
+				    </div>
+				 </div>
+			  <div class="clearfix"> </div>
+			  </div>
+			  <div class="clearfix"> </div>
+			</div>
+	  </div>
+</div>
+
+<div class="grines">
+	<div class="container">
+		<div class="grines-main">
+			<div class="grines-grid1 bg-one">
+			  <div class="grines-text">
+				<div class="coffee"> <img src="images/food.png" alt=""/> </div>  
+				<h3>Вкусная еда</h3>
+			  </div>
+			</div>
+			<div class="grines-grid1 bg-two">
+			  <div class="grines-text">
+				<div class="coffee cof-smal"> <img src="images/gd2.png" alt=""/> </div>  
+				<h3>Кофе</h3>
+			  </div>
+			</div>
+			<div class="grines-grid1 bg-three">
+				<div class="grines-tetx">
+				 	<div class="coffee"><img src="images/gam.png" alt=""/> </div>  
+					<h3>Игры</h3>
+			    </div>
+			</div>
+			<div class="grines-grid1 bg-four">
+				<div class="grines-text">
+				  <div class="coffee"> <img src="images/mus.png" alt=""/> </div>  
+				  <h3>Музыка</h3>
+				</div>
+			</div>
+		  <div class="clearfix"> </div>
+		</div>
+	</div>
+</div>
+
+
+<div class="map">
+	 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2710.085760910533!2d39.702768014955964!3d47.21490422294796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40e3b9a8f82b0a17%3A0xae4b6e608bcebd92!2z0KDQvtGB0YLQvtCy0YHQutC40Lkt0L3QsC3QlNC-0L3RgyDQutC-0LvQu9C10LTQtiDRgdCy0Y_Qt9C4INC4INC40L3RhNC-0YDQvNCw0YLQuNC60Lg!5e0!3m2!1sru!2sru!4v1655750301883!5m2!1sru!2sru" frameborder="0" style="border:0"> </iframe>
+</div>
+
+<div class="footer">
+	<div class="footer-main">
+		<div class="container">
+		   <div class="footer-top">
+			   <div class="ftr-img"> <img src="images/ftr-contact.png" alt=""/> </div>
+				<div class="sub">
+					<input type="text" value="Enter email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Enter email';}"/>
+					<input type="submit" value="Submit">
+				</div>
+				<div class="clearfix"> </div>
+				<div class="para">
+					<p>Подписаться на наш блог</p>
+				</div>
+				<div class="clearfix"> </div>
+					</div>
+				</div>
+		</div>
+		<div class="footer-bottom">
+			<div class="container">
+			<div class="col-md-4 ftr-bottom bgimg-top">
+				<h4>Следите за нашими новостями здесь</h4>
+				<ul class="imagesprite">
+					<li><a class="g" href="#"> </a></li>
+					<li><a class="fa" href="#"> </a></li>
+					<li><a class="tw" href="#"> </a></li>
+					<li><a class="p" href="#"> </a></li>
+					<li><a class="y" href="#"> </a></li>
+				</ul>
+				<h4>Свяжитесь с нами через Email : <a href="mailto:example@email.com">123example@email.com</a> </h4>
+			</div>
+			<div class="col-md-4 ftr-bottom">
+				<p>г.Ростов-на-Дону ул.Тургеневская 10/6</p>
+				<ul class="ftr-navg">
+					<li><a href="index.html">Главная</a></li>
+					<li><a href="about.html">О нас</a></li>
+					<li><a href="contact.html">Контакты</a></li>
+				</ul>
+			</div>
+			<div class="col-md-4 ftr-bottom">
+				<p>Номер телефона:-  +7(967) 315-05-74</p>
+				<p>Создано <a href="https://vk.com/sandr_74">Sandr</a></p>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+		</div>
+			<div class="clearfix"> </div>
+			<script type="text/javascript">
+										$(document).ready(function() {
+											$().UItoTop({ easingType: 'easeOutQuart' });
+											
+										});
+									</script>
+						<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+</div>
+</body>
+</html>
